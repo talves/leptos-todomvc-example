@@ -1,0 +1,16 @@
+{
+  "name": "todomvc",
+  "version": "0.1.0",
+  "description": "TodoMVC implemented in the Leptos framework for Rust hosting on Netlify",
+  "author": "Tony Alves <talves>",
+  "license": "MIT",
+  "dependencies": {
+    "todomvc-app-css": "^2.4.2",
+    "todomvc-common": "^1.0.5"
+  },
+  "scripts": {
+    "build": "trunk build --release",
+    "install_trunk": "chmod 744 ./bin/install_trunk.sh && TRUNK_VERSION=0.16.0 ./bin/install_trunk.sh",
+    "start": "trunk serve"
+  }
+}

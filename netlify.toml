@@ -1,0 +1,3 @@
+[build]
+    publish = "dist/"
+    command = "yarn install_trunk && yarn build"
